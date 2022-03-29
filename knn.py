@@ -46,7 +46,7 @@ def accuracy_score(y_true, y_pred):
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
 
-    print("KNN classification accuracy", accuracy(y_test, predictions))
+    print("KNN classification Accuracy", accuracy(y_test, predictions))
 
 
 
